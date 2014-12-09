@@ -11,25 +11,6 @@ import flash.geom.Rectangle;
 import game.Game;
 
 [SWF(frameRate="48",backgroundColor="0xc4cfa1",width="1280",height="720")]
-/**
- * Design:
- *
- * Los enemigos salen en oleadas (cada oleada mas enemigos y mas fuertes), despues de cada oleada el jugador puede hacer upgrades al personaje.
- * Se hace un anuncio por cada oleada.
- * Atributos del personaje: Velocidad, Fuerza
- *
- * Override la clase enemy
- * Los enemigos tienen que tener HP
- * Deshabilitar que los enemigos mueran por brinco encima de ellos
- * Enemigos se ignoran entre ellos
- *
- * Zombis - lentos
- * Aliens - rapidos
- * Ogros - fuerza
- * Ninjas - saltan
- *
- *
- */
 
 public class Main extends StarlingCitrusEngine {
     public function Main() {
